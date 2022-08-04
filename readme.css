@@ -1,0 +1,13 @@
+/* 
+Đưa dự án lên mạng: 
+1. Đưa DA vào VScode
+2. Chạy Terminal
+    git init
+3. Lưu DA vào local
+    git add .
+    git commiit -m 'first commit'
+4. Tạo Reponsitory trên Github
+5. Đẩy dự án lên Github
+    git remote add 'Tên Repository' https://name-of-the-Repository-link
+    git push Tên_DA master/main    
+*/
