@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Đăng Kiểm Hộ Đà Nẵng — Nhanh • An toàn • Uy tín</title>
+  <meta name="description" content="Dịch vụ đăng kiểm hộ tại Đà Nẵng — hỗ trợ giấy tờ, ủy quyền minh bạch, tiết kiệm thời gian. Liên hệ đặt dịch vụ ngay.">
+  <style>
+    :root{
+      --bg:#fff7ed; /* very light yellow */
+      --accent-1:#ff8a00; /* orange */
+      --accent-2:#ffd166; /* yellow */
+      --muted:#6b6b6b;
+      --card:#fffaf0;
+      --glass: rgba(255,255,255,0.6);
+      --shadow: 0 6px 18px rgba(0,0,0,0.08);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#222;line-height:1.5}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{display:inline-grid;place-items:center;width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent-1),#ffb347);box-shadow:var(--shadow)}
+    .logo svg{width:36px;height:36px}
+    .site-title{font-weight:700;font-size:18px}
+    nav ul{list-style:none;display:flex;gap:18px;padding:0;margin:0}
+    nav a{color:#333;text-decoration:none;font-weight:600}
+    .btn{background:var(--accent-1);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700;box-shadow:0 6px 14px rgba(255,138,0,0.18)}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px 0}
+    .hero-card{background:linear-gradient(180deg,var(--card),#fff);padding:28px;border-radius:12px;box-shadow:var(--shadow)}
+    .hero h1{margin:0 0 12px;font-size:28px;color:#2b2b2b}
+    .hero p{margin:0 0 18px;color:var(--muted)}
+    .hero .cta{display:flex;gap:12px}
+
+    /* illustration */
+    .car-illustration{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+
+    /* Features */
+    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+    .feature{background:var(--glass);padding:18px;border-radius:10px;text-align:center}
+    .feature h4{margin:8px 0 0;font-size:15px}
+
+    /* Services */
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .service{background:#fff;padding:16px;border-radius:12px;border:1px solid rgba(0,0,0,0.04)}
+    .service h3{margin:0 0 8px}
+
+    /* Process */
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .step{background:linear-gradient(180deg,#fff,#fffaf0);padding:14px;border-radius:10px}
+
+    /* Pricing */
+    .pricing{display:flex;gap:12px;margin-top:18px}
+    .price-card{flex:1;padding:18px;border-radius:12px;background:#fff;border:1px solid rgba(0,0,0,0.04)}
+    .price-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px dashed rgba(0,0,0,0.04)}
+
+    /* FAQ */
+    .faq{margin-top:18px}
+    details{background:#fff;padding:12px;border-radius:8px;margin-bottom:8px}
+
+    /* Contact */
+    .contact{display:grid;grid-template-columns:1fr 360px;gap:14px;margin-top:18px}
+    form input, form textarea, form select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-bottom:8px}
+
+    footer{margin-top:28px;padding:26px 0;border-top:1px solid rgba(0,0,0,0.04);display:flex;justify-content:space-between;align-items:center}
+
+    /* responsive */
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .container{padding:18px}
+      .features{grid-template-columns:repeat(2,1fr)}
+      .services{grid-template-columns:1fr}
+      .process{grid-template-columns:1fr}
+      .contact{grid-template-columns:1fr}
+    }
+    @media (max-width:520px){
+      nav ul{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden>
+          <!-- simple car + shield icon -->
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <rect x="0" y="0" width="64" height="64" rx="10" fill="none"></rect>
+            <path d="M8 38c2-8 8-14 20-14s18 6 20 14v6H8v-6z" fill="#fff" opacity="0.12"/>
+            <path d="M18 34s2-8 14-8 14 8 14 8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="22" cy="44" r="3" fill="#fff"/>
+            <circle cx="42" cy="44" r="3" fill="#fff"/>
+          </svg>
+        </div>
+        <div>
+          <div class="site-title">Đăng Kiểm Hộ Đà Nẵng</div>
+          <div style="font-size:12px;color:var(--muted)">Nhanh • An toàn • Uy tín</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#services">Dịch vụ</a></li>
+          <li><a href="#process">Quy trình</a></li>
+          <li><a href="#pricing">Báo giá</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn" href="#contact">Đặt đăng kiểm hộ</a>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Đăng Kiểm Hộ tại Đà Nẵng</h1>
+        <p>Hỗ trợ toàn diện thủ tục đăng kiểm xe: cá nhân, xe tải, xe doanh nghiệp. Tiết kiệm thời gian — Ủy quyền minh bạch — Giao nhận tận nơi.</p>
+        <div class="features" aria-hidden>
+          <div class="feature">
+            <div style="font-size:22px;font-weight:700;color:var(--accent-1)">Tiết kiệm thời gian</div>
+            <div style="font-size:13px;color:var(--muted)">Thay bạn nộp hồ sơ, xếp lịch, chờ trả giấy</div>
+          </div>
+          <div class="feature">
+            <div style="font-size:22px;font-weight:700;color:var(--accent-1)">Hỗ trợ giấy tờ</div>
+            <div style="font-size:13px;color:var(--muted)">Kiểm tra hồ sơ, hướng dẫn hoàn thiện</div>
+          </div>
+          <div class="feature">
+            <div style="font-size:22px;font-weight:700;color:var(--accent-1)">Ủy quyền minh bạch</div>
+            <div style="font-size:13px;color:var(--muted)">Mẫu ủy quyền có ký nhận — lưu trữ an toàn</div>
+          </div>
+          <div class="feature">
+            <div style="font-size:22px;font-weight:700;color:var(--accent-1)">Kinh nghiệm</div>
+            <div style="font-size:13px;color:var(--muted)">Nhiều năm làm việc với các trung tâm đăng kiểm địa phương</div>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;display:flex;gap:12px" class="cta">
+          <a class="btn" href="#contact">Đặt đăng kiểm hộ</a>
+          <a style="padding:10px 14px;border-radius:8px;background:transparent;border:1px solid rgba(0,0,0,0.06);text-decoration:none;font-weight:700" href="#pricing">Xem báo giá</a>
+        </div>
+
+        <div style="margin-top:18px;font-size:13px;color:var(--muted)">
+          <strong>Gói phù hợp:</strong> Chọn theo loại xe và nhu cầu (đăng kiểm 1 lần / định kỳ / doanh nghiệp).
+        </div>
+      </div>
+
+      <div>
+        <div style="background:linear-gradient(180deg,var(--accent-2),#fff);border-radius:12px;padding:18px;box-shadow:var(--shadow);height:100%">
+          <!-- simple SVG car + inspection center illustration -->
+          <div style="display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;height:100%">
+            <svg viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;border-radius:8px">
+              <rect width="600" height="360" rx="12" fill="white"/>
+              <g transform="translate(12,18)">
+                <rect x="0" y="0" width="576" height="324" rx="8" fill="url(#g)" stroke="#ffe1b3"/>
+                <defs>
+                  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#fff8f0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+                </defs>
+                <!-- car -->
+                <g transform="translate(40,140)">
+                  <rect x="0" y="-28" width="420" height="48" rx="10" fill="#ffb347"/>
+                  <circle cx="70" cy="26" r="24" fill="#6b6b6b"/>
+                  <circle cx="350" cy="26" r="24" fill="#6b6b6b"/>
+                </g>
+                <!-- center building -->
+                <g transform="translate(460,40)">
+                  <rect x="0" y="60" width="90" height="120" rx="6" fill="#ffe9c7" stroke="#ffd7a6"/>
+                  <rect x="12" y="78" width="66" height="18" rx="4" fill="#fff"/>
+                  <text x="45" y="156" font-size="12" text-anchor="middle" fill="#8c5a00">Trung tâm</text>
+                </g>
+              </g>
+            </svg>
+
+            <div style="font-weight:700;color:#8c4a00">Nhanh — An toàn — Uy tín</div>
+            <div style="font-size:13px;color:var(--muted);text-align:center">Chúng tôi chịu trách nhiệm đăng kiểm, xác minh giấy tờ và thông báo kết quả</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>Giới Thiệu</h2>
+      <div style="display:grid;grid-template-columns:1fr 320px;gap:14px;margin-top:8px;align-items:start">
+        <div>
+          <p><strong>Đăng Kiểm Hộ Đà Nẵng</strong> được thành lập nhằm hỗ trợ chủ xe bận rộn hoàn tất thủ tục đăng kiểm tại các trung tâm đăng kiểm ở Đà Nẵng. Với nhiều năm kinh nghiệm làm việc với các trung tâm kiểm định, đội ngũ của chúng tôi hiểu rõ quy trình, yêu cầu hồ sơ và các bước để xe đạt điều kiện kiểm định.</p>
+          <h4>Đội ngũ</h4>
+          <p>Đội ngũ gồm chuyên viên đăng kiểm, nhân viên hỗ trợ giấy tờ, và đội giao nhận — đều được đào tạo nghiệp vụ, làm việc theo quy trình minh bạch.</p>
+
+          <h4>Cam kết</h4>
+          <ul>
+            <li>Minh bạch thủ tục, chi phí</li>
+            <li>Tuân thủ pháp luật và quy định của trung tâm đăng kiểm</li>
+            <li>Bảo mật thông tin xe và chủ xe</li>
+          </ul>
+        </div>
+        <aside style="background:#fff;padding:14px;border-radius:10px;box-shadow:var(--shadow)">
+          <h4>Thông tin nhanh</h4>
+          <p style="margin:6px 0">SĐT: <a href="tel:+84901234567">0901 234 567</a></p>
+          <p style="margin:6px 0">Zalo: 0901 234 567</p>
+          <p style="margin:6px 0">Email: <a href="mailto:info@dangkiemhodn.vn">info@dangkiemhodn.vn</a></p>
+          <p style="margin:6px 0">Văn phòng: Đà Nẵng (cập nhật khi có địa chỉ chính thức)</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" style="margin-top:18px">
+      <h2>Dịch vụ</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Đăng kiểm hộ — Xe cá nhân</h3>
+          <p><strong>Bao gồm:</strong> Kiểm tra hồ sơ, đặt lịch, nộp trung tâm, nhận giấy kiểm định.</p>
+          <p><strong>Chi phí trung tâm:</strong> Theo biểu của trung tâm.</p>
+          <p><strong>Phí dịch vụ:</strong> Từ 150.000đ (tùy xe).</p>
+          <p><strong>Thời gian:</strong> 1–3 ngày (tùy lịch trung tâm).</p>
+        </div>
+
+        <div class="service">
+          <h3>Đăng kiểm hộ — Xe tải / xe khách</h3>
+          <p><strong>Bao gồm:</strong> Chuẩn bị hồ sơ, hỗ trợ kiểm tra an toàn, đại diện nộp và theo dõi.</p>
+          <p><strong>Phí dịch vụ:</strong> Từ 300.000đ (tùy loại và trọng tải).</p>
+        </div>
+
+        <div class="service">
+          <h3>Đăng kiểm định kỳ &amp; Tư vấn giấy tờ</h3>
+          <p>Hẹn lịch định kỳ, nhắc lịch; hướng dẫn hoàn thiện hồ sơ (đăng ký xe, CMND/CCCD, giấy tờ liên quan).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" style="margin-top:18px">
+      <h2>Quy Trình</h2>
+      <div class="process">
+        <div class="step"><strong>Bước 1</strong><div>Liên hệ &amp; gửi thông tin cơ bản (biển số, loại xe, chủ xe)</div></div>
+        <div class="step"><strong>Bước 2</strong><div>Ký ủy quyền (mẫu có sẵn)</div></div>
+        <div class="step"><strong>Bước 3</strong><div>Chuẩn bị giấy tờ: Giấy đăng ký xe, CMND/CCCD, giấy tờ liên quan</div></div>
+        <div class="step"><strong>Bước 4</strong><div>Mang xe / giấy tờ tới trung tâm đăng kiểm hoặc chúng tôi thay mặt khách làm</div></div>
+        <div class="step"><strong>Bước 5</strong><div>Nhận giấy chứng nhận kiểm định và giao lại cho khách</div></div>
+        <div class="step"><strong>Bước 6</strong><div>Báo kết quả + gửi hình ảnh / giấy tờ cho khách</div></div>
+      </div>
+
+      <div style="margin-top:12px;padding:12px;background:#fff;border-radius:10px;box-shadow:var(--shadow)">
+        <h4>Mẫu Ủy quyền</h4>
+        <p>Bạn có thể tải mẫu ủy quyền (định dạng .doc) và in ký tên. Hoặc ký điện tử nếu thống nhất trước.</p>
+        <button onclick="downloadTemplate()" class="btn" style="background:var(--accent-1);border:none">Tải mẫu ủy quyền</button>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" style="margin-top:18px">
+      <h2>Báo Giá</h2>
+      <div class="pricing">
+        <div class="price-card">
+          <h3>Xe con (cá nhân)</h3>
+          <div class="price-row"><div>Chi phí trung tâm</div><div>~ 350.000đ</div></div>
+          <div class="price-row"><div>Phí dịch vụ</div><div>150.000đ</div></div>
+          <div style="margin-top:8px">Tổng ước tính: <strong>~ 500.000đ</strong></div>
+        </div>
+        <div class="price-card">
+          <h3>Xe tải / xe khách</h3>
+          <div class="price-row"><div>Chi phí trung tâm</div><div>tùy tải trọng</div></div>
+          <div class="price-row"><div>Phí dịch vụ</div><div>300.000đ trở lên</div></div>
+        </div>
+        <div class="price-card">
+          <h3>Doanh nghiệp / Gói định kỳ</h3>
+          <p>Ưu đãi theo số lượng xe, hợp đồng tháng/quý.</p>
+        </div>
+      </div>
+
+      <p style="margin-top:10px;color:var(--muted)">Phương thức thanh toán: Tiền mặt, chuyển khoản, ZaloPay / Momo (có hỗ trợ — liên hệ để xác nhận).</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" style="margin-top:18px">
+      <h2>FAQ — Câu hỏi thường gặp</h2>
+      <details open>
+        <summary>Tôi có cần mang xe tới trung tâm không?</summary>
+        <p>Không bắt buộc nếu bạn ủy quyền cho chúng tôi. Chúng tôi có thể đại diện nộp hồ sơ hoặc bạn mang xe nếu cần kiểm tra thực tế.</p>
+      </details>
+      <details>
+        <summary>Thời gian đăng kiểm hộ mất bao lâu?</summary>
+        <p>Thông thường 1–3 ngày làm việc tùy vào lịch trung tâm và loại xe.</p>
+      </details>
+      <details>
+        <summary>Tôi phải ký ủy quyền như thế nào?</summary>
+        <p>Chúng tôi cung cấp mẫu ủy quyền. Bạn in, ký và gửi lại bản cứng; hoặc chụp/scan và gửi nếu được đồng ý trước.</p>
+      </details>
+      <details>
+        <summary>Nếu xe không đạt tiêu chuẩn, trách nhiệm bên nào?</summary>
+        <p>Chúng tôi hỗ trợ tư vấn để khắc phục lỗi. Nếu lỗi thuộc về kỹ thuật của xe, chủ xe chịu trách nhiệm sửa chữa. Mọi quy trình sẽ được thông báo minh bạch.</p>
+      </details>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div style="background:#fff;padding:16px;border-radius:12px;box-shadow:var(--shadow)">
+        <h2>Liên Hệ</h2>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <input type="text" id="name" placeholder="Họ và tên" required>
+          <input type="tel" id="phone" placeholder="Số điện thoại" required>
+          <input type="email" id="email" placeholder="Email (không bắt buộc)">
+          <select id="vehicleType">
+            <option value="car">Xe con</option>
+            <option value="truck">Xe tải / xe khách</option>
+            <option value="enterprise">Doanh nghiệp</option>
+          </select>
+          <input type="text" id="plate" placeholder="Biển số (VD: 43A-123.45)">
+          <textarea id="message" rows="4" placeholder="Nội dung / yêu cầu"></textarea>
+          <div style="display:flex;gap:8px;align-items:center">
+            <button class="btn" type="submit">Gửi liên hệ</button>
+            <a href="tel:+84901234567" style="padding:10px 12px;border-radius:8px;background:transparent;border:1px solid rgba(0,0,0,0.06);text-decoration:none;font-weight:700">Gọi ngay</a>
+          </div>
+        </form>
+        <div id="formResult" style="margin-top:8px;color:green;display:none">Cảm ơn! Chúng tôi sẽ liên hệ sớm.</div>
+      </div>
+
+      <aside style="background:#fff;padding:16px;border-radius:12px;box-shadow:var(--shadow)">
+        <h3>Thông tin nhanh</h3>
+        <p>SĐT: <a href="tel:+84901234567">0901 234 567</a></p>
+        <p>Zalo: 0901 234 567</p>
+        <p>Email: <a href="mailto:info@dangkiemhodn.vn">info@dangkiemhodn.vn</a></p>
+        <p>Địa chỉ văn phòng: (cập nhật)</p>
+
+        <h4 style="margin-top:12px">Bản đồ</h4>
+        <!-- If you have Google Maps embed code, paste into the iframe below -->
+        <div style="background:#fff7e8;border-radius:8px;padding:8px;font-size:13px;color:var(--muted)">Chèn iframe Google Maps ở đây nếu có.</div>
+      </aside>
+    </section>
+
+    <!-- Testimonials / Partners -->
+    <section style="margin-top:18px">
+      <h2>Đánh giá khách hàng &amp; Đối tác</h2>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:10px">
+        <div style="background:#fff;padding:12px;border-radius:10px;min-width:220px;box-shadow:var(--shadow)">
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="width:44px;height:44px;background:linear-gradient(135deg,#ffd166,#ff8a00);border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700">NT</div>
+            <div>
+              <strong>Nguyễn Thanh</strong>
+              <div style="font-size:13px;color:var(--muted)">Đà Nẵng — chủ xe</div>
+            </div>
+          </div>
+          <p style="margin-top:8px">Dịch vụ nhanh, nhân viên tận tình. Tôi không phải chờ ở trung tâm nữa.</p>
+        </div>
+
+        <div style="background:#fff;padding:12px;border-radius:10px;min-width:220px;box-shadow:var(--shadow)">
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="width:44px;height:44px;background:linear-gradient(135deg,#ffd166,#ff8a00);border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700">LT</div>
+            <div>
+              <strong>Lê Thị Hồng</strong>
+              <div style="font-size:13px;color:var(--muted)">Đà Nẵng — doanh nghiệp</div>
+            </div>
+          </div>
+          <p style="margin-top:8px">Tiết kiệm thời gian cho doanh nghiệp. Giao nhận giấy tờ nhanh chóng.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">Logo các trung tâm đăng kiểm (nếu hợp tác) có thể đặt ở đây.</div>
+    </section>
+
+    <footer>
+      <div style="font-size:13px;color:var(--muted)">© <span id="year"></span> Đăng Kiểm Hộ Đà Nẵng — Giấy phép (nếu có) | <a href="#">Chính sách bảo mật</a></div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Zalo">Zalo</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleSubmit(e){
+      e.preventDefault();
+      // collect data (no backend) -> show result
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const type = document.getElementById('vehicleType').value;
+      // show success message
+      document.getElementById('formResult').style.display = 'block';
+      document.getElementById('formResult').textContent = 'Cảm ơn ' + (name?name:'bạn') + '! Chúng tôi sẽ liên hệ qua SĐT ' + phone + ' để xác nhận.';
+      // reset form after a short delay
+      setTimeout(()=>{document.getElementById('contactForm').reset()},1200);
+    }
+
+    function downloadTemplate(){
+      const content = `MẪU ỦY QUYỀN\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nUY QUYỀN\n\nHọ và tên chủ xe: __________________________\nSố CMND/CCCD: __________________________\nBiển số xe: __________________________\nNội dung ủy quyền: Ủy quyền cho (tên dịch vụ) thực hiện thủ tục đăng kiểm hộ, nộp hồ sơ, nhận giấy chứng nhận kiểm định và giao lại cho chủ xe.\n\nThời hạn ủy quyền: từ ngày ____ / ____ / ____ đến ngày ____ / ____ / ____\n\nChữ ký chủ xe: __________________\n\n(Chú ý: In ra, ký, ghi rõ họ tên và kèm bản sao CMND/CCCD)`;
+      const blob = new Blob([content], {type: 'application/msword'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'Mau_UyQuyen_DangKiem.doc';
+      document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    // smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        const href = this.getAttribute('href');
+        if(href.length>1){
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      })
+    })
+  </script>
+</body>
+</html>
